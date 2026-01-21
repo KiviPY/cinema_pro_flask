@@ -1,0 +1,533 @@
+* {            /* Убирает отступ по умолчанию*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:
+        radial-gradient(circle at 20% 0%, #18273f, transparent 60%),
+        linear-gradient(180deg, #05070d, #000000);
+    color: #ccc;
+    font-family: cursive;
+    padding-top: 70px; /* Отступ от верха с учетом верхней строки*/
+}
+
+a {
+    color: #ccc;
+    text-decoration: none; /* Нет подчеркивающей полосы, при наведение добавили */
+    font-size: 17px;
+}
+
+.nav a {
+    margin-left:  15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    background: #1e1e1e;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: 0.25s ease;
+    width: 70px;
+}
+
+
+.dropdown-menu li a:hover {
+    background: #121212;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-title {
+    margin-left: 13px;
+}
+
+.search-form {
+    margin-left: 30px;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    flex-wrap: nowrap; /*можно ли flex-элементам переноситься на новую строк*/
+}
+
+
+.nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.genre_list a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#logo {
+    color: lightcoral;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 350px;
+}
+
+#search_box {
+    background: -webkit-linear-gradient(90deg, #363940,#10151b);background: linear-gradient(90deg, #363940,#10151b);
+    color: white;
+    width: 300px;
+    height: 30px;
+    margin-left: -20px;
+    border-radius: 15px 0 0 15px ;
+    border: black solid 2px;
+}
+::placeholder {
+    color: whitesmoke;
+}
+
+
+#search_btn {
+    height: 27px;
+    width: 60px;
+    margin-left: -5px;
+    background: linear-gradient(135deg, #00a1d8, #0072a0);
+    color: #fff;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    box-shadow:
+        inset 0 1px 3px rgba(255, 255, 255, 0.2),   /* лёгкий верхний свет внутри */
+        0 3px 6px rgba(0, 0, 0, 0.4),               /* мягкая внешняя тень */
+        0 6px 12px rgba(0, 0, 0, 0.3);              /* вторичная размыттая тень для глубины */
+    transition: all 0.3s ease;
+}
+
+
+#search_btn:hover {
+    background: linear-gradient(135deg, #00c0ff, #0090cc);
+    box-shadow:
+        inset 0 1px 4px rgba(255, 255, 255, 0.3),
+        0 4px 8px rgba(0, 0, 0, 0.5),
+        0 8px 16px rgba(0, 0, 0, 0.35);
+    transform: translateY(-1px); /* лёгкое поднятие при hover */
+}
+
+#year_search_2 {
+    margin-left: 15px;
+    background: -webkit-linear-gradient(90deg, #363940,#10151b);background: linear-gradient(90deg, #363940,#10151b);
+    height: 27px;
+    border-radius: 15px 0 0 15px ;
+    border: black solid 2px;
+    color: white;
+}
+
+#year_search_1 {
+    margin-left: 15px;
+    background: -webkit-linear-gradient(90deg, #363940,#10151b);background: linear-gradient(90deg, #363940,#10151b);
+    height: 27px;
+    border-radius: 15px ;
+    border: black solid 2px;
+    color: white;
+}
+
+#year_search_1::placeholder, #year_search_2::placeholder {
+    color: #141414;
+}
+
+#year_range_btn {
+    height: 22px;
+    width: 40px;
+    margin-left: -5px;
+    background: linear-gradient(#aaaaaa, #666666);
+    color: #111111;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    box-shadow:
+        inset 0 1px 0 #ffffff,   /* верхний свет */
+        0 4px 0 #222222,         /* основание кнопки */
+        0 6px 12px #000000;      /* внешняя тень */
+}
+
+
+input {
+    padding: 5px
+}
+
+
+
+select {
+    height: 27px;
+    margin-left: -5px;
+    background: linear-gradient(90deg, #363940, #10151b); /* как у search_box */
+    color: #fff;
+    border: black solid 2px;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.3s ease;
+}
+
+select option {
+    background: #363940; /* Цвет фона опций */
+    color: #fff;         /* Цвет текста опций */
+}
+select option:hover {
+    background: #00a1d8; /* Цвет при наведении на опцию */
+    color: #fff;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: -webkit-linear-gradient(90deg, #000000,#0d1521,#070e18);background: linear-gradient(90deg, #000000,#0d1521,#070e18);
+    display: flex;
+    align-items: center;
+    padding: 0 30px; /*отступы 0 от верха-низа, 30 по сторонам */
+    border-bottom: 2px solid #333; /*граница*/
+    z-index: 1000; /* Что-бы верхняя строка, накладывалась поверх всего*/
+    opacity: 0.8; /* Прозрачность*/
+}
+
+.nav_row {
+    display: grid; /*превращает .nav_row в grid-контейнер*/
+    grid-template-columns: 365px 1fr;  /*Определяет СКОЛЬКО колонок и какой они ширины.*/
+}
+
+.panel {
+    height: 40px;
+    display: flex;
+    align-items: center; /*выравнивание элементов по поперечной оси*/
+    padding-left: 20px;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    text-shadow: 1px 1px #111, 2px 2px #000;
+    box-shadow: inset 0 -1px 0 #333, 0 1px 2px #000;
+}
+
+
+
+
+.panel-left {
+    border-right: 1px solid #000;
+    background: -webkit-linear-gradient(90deg, #000000,#0d1521,#070e18);background: linear-gradient(90deg, #000000,#0d1521,#070e18);
+}
+
+.panel-right {
+    background: -webkit-linear-gradient(90deg, #000000,#0d1521,#070e18);background: linear-gradient(90deg, #000000,#0d1521,#070e18);
+}
+
+
+.sidebar {
+     background: -webkit-linear-gradient(90deg, #000000,#0d1521,#070e18);background: linear-gradient(90deg, #000000,#0d1521,#070e18);
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #000;
+}
+
+.sidebar {
+    border-top: 1px solid #000;
+    box-shadow: inset 0 1px 2px #000;
+}
+
+.content {
+    padding: 20px;
+}
+
+.sidebar li :hover {
+    text-decoration: underline;
+    color: white ;
+}
+
+ul {
+    list-style: none;
+}
+
+.genre_list li {
+    margin-bottom: 7px;
+}
+
+
+
+
+.ratings {
+    margin-bottom: 15px;
+}
+
+.rating {
+    display: inline-block; /*Ставит все рейтинги в блок, в одну строку*/
+    padding: 5px 8px;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 9px;
+    color: #000
+}
+
+.kp {
+    background: orange;
+}
+
+.imdb {
+    background: darkgoldenrod;
+}
+
+
+.poster {
+    width: 260px;
+    height: 380px;
+    object-fit: cover;   /* или contain */
+    border-radius: 9px;
+}
+
+
+
+.description {
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.movie-meta {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.movie-meta li {
+    margin-bottom: 5px;
+}
+
+.watch-button {
+    padding: 10px 20px;
+    background: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.watch-button:hover {
+    background: #666;
+}
+
+.movie-page {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+     box-shadow:
+        inset 0 1px 2px #000,
+        inset 0 -1px 2px #ffffff0c;
+}
+
+.movie-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.movie-body {
+    display: flex;
+    gap: 30px
+}
+
+
+
+.movie-page h1 {
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.movie-page {
+    background: -webkit-linear-gradient(90deg, #000000,#0d1521,#070e18);background: linear-gradient(90deg, #000000,#0d1521,#070e18);
+
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+
+    transition:       /*Для более плавного перехода*/
+        background 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.movie-page:hover {
+     background: -webkit-linear-gradient(90deg, #000000,#00a1d8);background: linear-gradient(90deg, #000000,#00a1d8);
+    box-shadow: 0 0 0 1px #444, 0 8px 20px #000;
+    transform: translateY(-2px);
+}
+
+
+.pagination {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.page-btn {
+    margin: 0 15px;
+    padding: 8px 14px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.page-btn:hover {
+    background: #555;
+}
+
+
+.sidebar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+
+.year_list li {
+    margin-bottom: 7px;
+}
+
+.actors-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    padding: 30px;
+}
+
+
+.actor-card {
+    background: #1e1e1e;
+    border-radius: 12px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+
+.actor-name {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background: #2a2a2a;
+}
+
+.actor-name:hover {
+    text-decoration: underline
+}
+
+.actor-photo {
+    flex: 1;
+    background: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bbb;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* расстояние между кнопками */
+}
+
+.page-btn {
+    margin: 0;
+}
+
+
+.pagination, .s_pagination {
+    display: flex;               /* Горизонтальное расположение элементов */
+    justify-content: center;     /* Центрируем по горизонтали */
+    margin: 20px 0;              /* Отступ сверху и снизу */
+    gap: 15px;                   /* Расстояние между кнопками */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.pagination a, .s_pagination a {
+    padding: 8px 14px;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+
+.pagination a:hover, .s_pagination a:hover {
+    background-color: #0f71d3;
+    transform: scale(1.05);     /* Лёгкое увеличение */
+}
+
+
+.pagination span, .s_pagination span {
+    padding: 8px 12px;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+
+
+
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #555;
+    margin: 15px 0;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+.footer-columns ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-columns li {
+    margin-bottom: 7px;
+    color: #ccc;
+}
+
+.pop_list {
+    margin-top: 5px
+}
+
+.pop_q {
+    height: 40px;
+    display: flex;
+    align-items: center; /*выравнивание элементов по поперечной оси*/
+    padding-left: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    text-shadow: 1px 1px #111, 2px 2px #000;
+    box-shadow: inset 0 -1px 0 #333, 0 1px 2px #000;
+}

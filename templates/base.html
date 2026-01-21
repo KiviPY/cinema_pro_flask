@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+
+    <body>
+
+        <header class="header"> <!--Содержит: логотип, поиск, фильтры, навигацию-->
+            <a href="{{ url_for('home') }}" id="logo">CINEMA PRO</a>
+
+            <form class="search-form" action="{{ url_for('searching') }}" method="get">
+                <input id="search_box" type="search" name="word" placeholder="  🔍︎ Search..." >
+                <button id="search_btn" type="submit">Search</button>
+            </form>
+            <div class="search_by_range">
+            <form class="year_range" action="{{ url_for('year_range') }}" method="get">
+                <input id="year_search_1" type="search" name="start" placeholder=" From 1900.." maxlength="4" minlength="4">
+                <input id="year_search_2" type="search" name="end" placeholder=" To 2026.." maxlength="4" minlength="4">
+
+                <select name="genre">
+                    <option value="">Genres</option>
+                    <option value="Action">Action</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Animation">Animation</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Crime">Crime</option>
+                    <option value="Documentary">Documentary</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Family">Family</option>
+                    <option value="Horror">Horror</option>
+                    <option value="History">History</option>
+                    <option value="Mystery">Mystery</option>
+                    <option value="Music">Music</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Science Fiction">Science Fiction</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="TV Movie">TV Movie</option>
+                    <option value="War">War</option>
+                    <option value="Western">Western</option>
+                </select>
+
+                <button id="year_range_btn" type="submit">Go</button>
+            </form>
+            </div>
+
+            <nav class="nav">
+                <a href="{{ url_for('home') }}">Films</a>
+
+                <div class="dropdown">
+                    <span class="dropdown-title">All years</span>
+                    <ul class="dropdown-menu">
+                        {% for year in range(2025, 1989, -1) %}
+                            <li><a href="{{ url_for('year_page', year=year) }}">{{ year }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <a href="{{ url_for('actors_page') }}">Actors</a>
+            </nav>
+        </header>
+
+        <div class="nav_row">
+             <div class="panel panel-left">Navigation panel</div>
+             <div class="panel panel-right">Popular films</div>
+
+            <aside class="sidebar"> <!-- Используется для: жанров лет, популярных запросов, последних запросов -->
+                <div class="sidebar-grid">
+                    <div>
+                        <h3 id="Genre">Genres</h3>
+                        <ul class="genre_list">
+                            <li><a href="{{ url_for('genre_page', genre_name='Action') }}">Action</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Adventure') }}">Adventure</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Animation') }}">Animation</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Comedy') }}">Comedy</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Crime') }}">Crime</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Documentary') }}">Documentary</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Drama') }}">Drama</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Fantasy') }}">Fantasy</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Family') }}">Familyy</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Horror') }}">Horror</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='History') }}">History</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Mystery') }}">Mystery</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Music') }}">Music</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Romance') }}">Romance</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Science Fiction') }}">Science Fiction</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Thriller') }}">Thriller</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='TV Movie') }}">TV Movie</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='War') }}">War</a></li>
+                            <li><a href="{{ url_for('genre_page', genre_name='Western') }}">Western</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 id="Year">Years</h3>
+                        <ul class="year_list">
+                            {% for year in range(2026, 2007, -1) %}
+                                <li><a href="{{ url_for('year_page', year=year) }}" id="years">{{ year }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+
+            <div class="sidebar-footer">
+                <hr class="divider">
+                <div class="footer-columns">
+                    <div class="popular-queries">
+                        <h4 class="pop_q">Popular Queries</h4>
+                        <ul class="pop_list">
+                            {% for q in popular_queries %}
+                                <li>
+                                    {% if q.query_type == 'films_by_actor' %}
+                                        {{ q.keyword['first_name'] }} {{ q.keyword['last_name'] }}
+                                    {% else %}
+                                        {{ q.keyword }}
+                                    {% endif %}
+                                    <span class="query-count">({{ q.count }})</span>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <div class="recent-queries">
+                        <h4 class="pop_q">Recent Queries</h4>
+                        <ul class="pop_list">
+                            {% for q in recent_queries %}
+                             <li>
+                                {% if q.query_type == 'films_by_actor' %}
+                                    {{ q.keyword['first_name'] }} {{ q.keyword['last_name'] }}
+                                {% else %}
+                                    {{ q.keyword }}
+                                {% endif %}
+                                 <span class="query-count">({{ q.count }})</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <hr class="divider">
+            </div>
+            </aside>
+
+            <main class="content">
+                {% block content %}
+                {% endblock %}
+            </main>
+
+            {% if request.endpoint == 'searching' %}
+            <footer>
+                <div class="s_pagination">
+                    {% if page > 1 %}
+                        <a href="{{ url_for('searching', word=keyword, page=page-1) }}">Previous</a>
+                    {% endif %}
+                    <span>Page {{ page }} of {{ total_pages }}</span>
+                    {% if page < total_pages %}
+                        <a href="{{ url_for('searching', word=keyword, page=page+1) }}">Next</a>
+                    {% endif %}
+                </div>
+            </footer>
+            {% elif request.endpoint == 'year_range' %}
+            <footer>
+                <div class="s_pagination">
+                    {% if page > 1 %}
+                        <a href="{{ url_for('year_range', start=start_year, end=end_year, genre=genre, page=page-1) }}">Previous</a>
+                    {% endif %}
+                    <span>Page {{ page }} of {{ total_pages }}</span>
+                    {% if page < total_pages %}
+                        <a href="{{ url_for('year_range', start=start_year, end=end_year, genre=genre, page=page+1) }}">Next</a>
+                    {% endif %}
+                </div>
+            </footer>
+            {% else %}
+            <footer>
+                <div class="pagination">
+                    {% if page > 1 %}
+                        <a href="?page={{ page - 1 }}">Previous</a>
+                    {% endif %}
+                    <span>Page {{ page }} of {{ total_pages }}</span>
+                    {% if page < total_pages %}
+                        <a href="?page={{ page + 1 }}">Next</a>
+                    {% endif %}
+                </div>
+            </footer>
+            {% endif %}
+        </div>
+    </body>
+</html>

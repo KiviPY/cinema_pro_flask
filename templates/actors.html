@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}
+Actors
+{% endblock %}
+
+{% block content %}
+<div class="actors-container">
+    {% for actor in actors %}
+        <div class="actor-card">
+            <a href="{{ url_for('films_by_actor', actor_id=actor.actor_id) }}" class="actor-name">
+                {{ actor.first_name }} {{ actor.last_name }}
+            </a>
+            <div class="actor-photo">
+            <img src="{{ actor.photo_url }}" alt="{{ actor.first_name }} {{actor.last_name}}" width="500" class="poster">
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

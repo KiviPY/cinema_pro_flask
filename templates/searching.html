@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}
+Searching
+{% endblock %}
+
+{% block content %}
+    {% if films %}
+        {% for film in films %}
+            <article class="movie-page">
+                <h1>{{ film.title }}</h1>
+                    <div class="movie-body">
+                    <img src="{{ film.image_url }}" alt="{{ film.title }}" class="poster">
+                        <div class="movie-info">
+
+                            <div class="ratings">
+                                <span class="rating kp">{{ film.age_rating }}</span>
+                                <span class="rating imdb">IMDB {{ film.rating }}</span>
+                            </div>
+
+                            <div class="description">
+                                {{ film.description }}
+                            </div>
+
+                            <ul class="movie-meta">
+                                <li>Year: <span>{{ film.release_year }}</span></li>
+                                <li>Genre: <span>{{ film.genre }}</span></li>
+                                <li>Duration: <span>{{ film.length }} min</span></li>
+                            </ul>
+
+                            <button class="watch-button">Watch online</button>
+                        </div>
+                    </div>
+            </article>
+        {% endfor %}
+    {% else %}
+        <h1>Sorry, we have no films for you 🙁</h1>
+    {% endif %}
+{% endblock %}

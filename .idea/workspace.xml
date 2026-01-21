@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5369495-2da3-4c2e-a676-fdad9447a4f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Flask/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/FastApi/api_introduction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/FastApi/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/FastApi/films.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/FastApi/pydantic_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_block_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_classes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_object_positioning.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_project.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_working_with_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/HTML_CSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/block_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/first_file.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/kino.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/object_positioning.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/stzle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/working_with_text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/ыва.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/div_span.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/enumerate_lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/forms_searching_button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/pictures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/HTML/tags_and_optimisation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_base_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/data_hw_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/hw_20_mongo_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/data_pr_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo.db_practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_atlas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_edit_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_pr_19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_practice_17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/practice_16_mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/data_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/mongo_class_work_19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/mongo_class_work_20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/database/mongo_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_25/hw_25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_26.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_27/hw_27.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_27/movies_to_watch.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_27/system_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_28.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_29.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_30/student_courses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_30/student_courses_report.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_30/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_31.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_33.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_34.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_35.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_36.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_37.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_38.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_41.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_42.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_43.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/info/from_start_to_OOP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/info/tasks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/info/test_per_comm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/info/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice 12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_13/sales_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_13/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_14/5.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_14/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_14/tasks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_15/german_numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_15/grades.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_15/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_21/books.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_21/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_21/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pagination/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pagination/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_requests/count_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_requests/main_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_requests/save_find_mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/actors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/films_by_actor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/genre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/searching.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/year.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/year_range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/db_requests/count_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/db_requests/main_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/db_requests/save_find_mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/local_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/static/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/templates/actors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/templates/films_by_actor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/templates/genre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/templates/searching.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/templates/year.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/templates/year_range.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linux/12_hw_repo" beforeDir="false" afterPath="$PROJECT_DIR$/../Linux/12_hw_repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/all methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/all methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 12.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 13.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 14.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 15.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 16.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 17.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 18.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 19.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 20.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 21.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 22.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 23.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw 24.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/hw9.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/local_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/local_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/math.functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/math.functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/practice 9.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/sql.connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/database/sql.connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/sql_first_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/database/sql_first_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/t per commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/t per commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/t.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/t.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KiviPY&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:KiviPY/all_subjects.git&quot;,
+    &quot;accountId&quot;: &quot;1270dda0-ef53-44f6-8f7a-765b0bc7489d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="36bUFsRLaMfMmyqNsJulhAVG7IN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.base.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.dsd.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.output.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.as.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db_conn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.keyword.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_actors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.render.executor&quot;: &quot;Run&quot;,
+    &quot;Python.requests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.searching.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IT CareerHub/project&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IT CareerHub\project" />
+      <recent name="C:\IT CareerHub\project\templates" />
+      <recent name="C:\IT CareerHub\project\" />
+      <recent name="C:\IT CareerHub\project\project\example" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5369495-2da3-4c2e-a676-fdad9447a4f3" name="Changes" comment="" />
+      <created>1765274664010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765274664010</updated>
+      <workItem from="1765274665068" duration="53000" />
+      <workItem from="1765537054106" duration="17000" />
+      <workItem from="1765728751994" duration="2184000" />
+      <workItem from="1765734554729" duration="345000" />
+      <workItem from="1765789448387" duration="3000" />
+      <workItem from="1765980742983" duration="23000" />
+      <workItem from="1765981447144" duration="666000" />
+      <workItem from="1766003917925" duration="2000" />
+      <workItem from="1766050557087" duration="85000" />
+      <workItem from="1766328715322" duration="1821000" />
+      <workItem from="1766334451421" duration="34000" />
+      <workItem from="1766334618351" duration="653000" />
+      <workItem from="1766335317362" duration="482000" />
+      <workItem from="1766338210645" duration="109000" />
+      <workItem from="1766338333623" duration="3638000" />
+      <workItem from="1766342008042" duration="970000" />
+      <workItem from="1766408342025" duration="1366000" />
+      <workItem from="1766504520584" duration="2000" />
+      <workItem from="1766590614834" duration="1065000" />
+      <workItem from="1766591852753" duration="6721000" />
+      <workItem from="1766600210540" duration="228000" />
+      <workItem from="1766600643430" duration="557000" />
+      <workItem from="1766601389844" duration="1379000" />
+      <workItem from="1766666526782" duration="99000" />
+      <workItem from="1766666644798" duration="103000" />
+      <workItem from="1766945048644" duration="15000" />
+      <workItem from="1766945253333" duration="6000" />
+      <workItem from="1767116663700" duration="30000" />
+      <workItem from="1767116707019" duration="129000" />
+      <workItem from="1767128092044" duration="73000" />
+      <workItem from="1767289815162" duration="3000" />
+      <workItem from="1767302409744" duration="6000" />
+      <workItem from="1767509244276" duration="13000" />
+      <workItem from="1767509307298" duration="2000" />
+      <workItem from="1768329438505" duration="134000" />
+      <workItem from="1768329797320" duration="47000" />
+      <workItem from="1768339852772" duration="300000" />
+      <workItem from="1768428114930" duration="38000" />
+      <workItem from="1768428168782" duration="19000" />
+      <workItem from="1768428194000" duration="36000" />
+      <workItem from="1768428260380" duration="99000" />
+      <workItem from="1768428377768" duration="22000" />
+      <workItem from="1768428437642" duration="3247000" />
+      <workItem from="1768432528161" duration="540000" />
+      <workItem from="1768433590645" duration="547000" />
+      <workItem from="1768435657989" duration="1658000" />
+      <workItem from="1768441165960" duration="78000" />
+      <workItem from="1768442405158" duration="25000" />
+      <workItem from="1768495476322" duration="102000" />
+      <workItem from="1768985169461" duration="54000" />
+      <workItem from="1768985237444" duration="11000" />
+      <workItem from="1768985265233" duration="9000" />
+      <workItem from="1768985318910" duration="28000" />
+      <workItem from="1768985359071" duration="13000" />
+      <workItem from="1768985386151" duration="13000" />
+      <workItem from="1768985407211" duration="11000" />
+      <workItem from="1768985425199" duration="11000" />
+      <workItem from="1768985444202" duration="15000" />
+      <workItem from="1768985468818" duration="17000" />
+      <workItem from="1768985497434" duration="23000" />
+      <workItem from="1768985628692" duration="19000" />
+      <workItem from="1768985660276" duration="14000" />
+      <workItem from="1768985685260" duration="31000" />
+      <workItem from="1768985731693" duration="10000" />
+      <workItem from="1768985751357" duration="9000" />
+      <workItem from="1768985766074" duration="13000" />
+      <workItem from="1768985791830" duration="53000" />
+      <workItem from="1768985866220" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project$as.coverage" NAME="as Coverage Results" MODIFIED="1768430239126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/project$searching.coverage" NAME="searching Coverage Results" MODIFIED="1768441181525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/project$main.coverage" NAME="main Coverage Results" MODIFIED="1768985809986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$db_conn.coverage" NAME="db_conn Coverage Results" MODIFIED="1768435670689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/project$keyword.coverage" NAME="keyword Coverage Results" MODIFIED="1765274689569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/project$render.coverage" NAME="render Coverage Results" MODIFIED="1766599070312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$load_actors.coverage" NAME="load_actors Coverage Results" MODIFIED="1768430975396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/project$requests.coverage" NAME="requests Coverage Results" MODIFIED="1766593171780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
