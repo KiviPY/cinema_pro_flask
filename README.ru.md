@@ -66,7 +66,7 @@ cinema-pro-flask/
 | `/year-range`              | Диапазон лет + жанр       | get_count_by_year_range(), get_films_by_year_range()                 |
 | `/actors`                  | Список актёров            | get_total_actors(), get_actors()                                     |
 | `/films_by/<int:actor_id>` | Фильмы конкретного актёра | get_films_count_by_actor(), get_films_by_actor(),  get_actor_by_id() |
-
+|´/film/<int:film_id>´       | Для трейлеров фильма      | get_trailers()                                                       |
 
 
 
