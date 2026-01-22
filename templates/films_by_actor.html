@@ -4,6 +4,8 @@
 Films by actor
 {% endblock %}
 
+{% block right_panel %}Popular films{% endblock %}
+
 {% block content %}
     {% if films %}
         {% for film in films %}
@@ -28,7 +30,7 @@ Films by actor
                                 <li>Duration: <span>{{ film.length }} min</span></li>
                             </ul>
 
-                            <button class="watch-button">Watch online</button>
+                            <a href="{{ url_for('film_page', film_id=film.film_id) }}" class="watch-button">Watch Online</a>
                         </div>
                     </div>
             </article>

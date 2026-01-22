@@ -33,7 +33,7 @@ def year_page(year):
 
     popular_queries = get_popular_queries()
     recent_queries = get_recent_queries()
-    save_query(query_type="year", key=str(year), result_count=total_films)
+    save_query(query_type="year", key=str(year), page=pager["page"], result_count=total_films)
 
     return render_template("year.html", films=films, year=year, popular_queries=popular_queries, recent_queries=recent_queries, **pager)
 
@@ -46,7 +46,7 @@ def genre_page(genre_name):
 
     popular_queries = get_popular_queries()
     recent_queries = get_recent_queries()
-    save_query(query_type="genre", key=genre_name, result_count=total_films)
+    save_query(query_type="genre", key=genre_name, page=pager["page"], result_count=total_films)
 
     return render_template("genre.html", films=films, genre=genre_name, popular_queries=popular_queries, recent_queries=recent_queries, **pager)
 
@@ -59,7 +59,7 @@ def searching():
 
     popular_queries = get_popular_queries()
     recent_queries = get_recent_queries()
-    save_query(query_type="search_by_keyword", key=keyword, result_count=total_films)
+    save_query(query_type="search_by_keyword", key=keyword, page=pager["page"], result_count=total_films)
 
     return render_template("searching.html", films=films, keyword=keyword, popular_queries=popular_queries, recent_queries=recent_queries, **pager)
 
@@ -80,7 +80,7 @@ def year_range():
 
     popular_queries = get_popular_queries()
     recent_queries = get_recent_queries()
-    save_query(query_type="year_range", key=f"{start_year}-{end_year}-{genre}", result_count=total_films)
+    save_query(query_type="year_range", key=f"{start_year}-{end_year}-{genre}", page=pager["page"], result_count=total_films)
 
     return render_template("year_range.html",films=films, start_year=start_year, end_year=end_year, genre=genre, popular_queries=popular_queries, recent_queries=recent_queries, **pager)
 
@@ -106,10 +106,22 @@ def films_by_actor(actor_id):
     popular_queries = get_popular_queries()
     recent_queries = get_recent_queries()
     actor_info = get_actor_by_id(actor_id)
-    save_query(query_type="films_by_actor", key={"actor_id": actor_id, "first_name": actor_info["first_name"], "last_name": actor_info["last_name"]}, result_count=total_films)
+    save_query(query_type="films_by_actor", key={"actor_id": actor_id, "first_name": actor_info["first_name"], "last_name": actor_info["last_name"]}, page=pager["page"], result_count=total_films)
 
     return render_template("films_by_actor.html", films=films, actor_id=actor_id,  popular_queries=popular_queries, recent_queries=recent_queries, **pager)
 
+
+@app.route("/film/<int:film_id>")
+def film_page(film_id):
+    film = get_trailer(film_id)  # получаем данные фильма вместе с трейлером
+    if not film:
+        return "Film not found", 404
+
+    popular_queries = get_popular_queries()
+    recent_queries = get_recent_queries()
+    save_query(query_type="film", key=film["title"], page=1, result_count=1)
+
+    return render_template("film_page.html", film=film, popular_queries=popular_queries, recent_queries=recent_queries, page=1, total_pages=1)
 
 
 if __name__ == "__main__":

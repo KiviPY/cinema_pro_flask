@@ -4,6 +4,9 @@
 from {{ start_year }} to {{end_year}}
 {% endblock %}
 
+{% block right_panel %}Films between {{ start_year }}-{{ end_year }} and by genre {{ genre }}{% endblock %}
+
+
 {% block content %}
     {% if films %}
         {% for film in films %}

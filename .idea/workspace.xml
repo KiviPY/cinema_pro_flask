@@ -110,21 +110,7 @@
       <change afterPath="$PROJECT_DIR$/../Python/practice/practice_21/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pagination/app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pagination/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_requests/count_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_requests/main_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_requests/save_find_mongo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/actors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/films_by_actor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/genre.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/searching.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/year.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/year_range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/film_page.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2/Readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2/db_requests/count_requests.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2/db_requests/main_requests.py" afterDir="false" />
@@ -135,6 +121,7 @@
       <change afterPath="$PROJECT_DIR$/../project2/static/main.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2/templates/actors.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/templates/film_page.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2/templates/films_by_actor.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2/templates/genre.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2/templates/home.html" afterDir="false" />
@@ -188,6 +175,21 @@
       <change beforePath="$PROJECT_DIR$/../Python/t per commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/t per commands.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/t.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/t.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_requests/count_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_requests/count_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_requests/main_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_requests/main_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_requests/save_find_mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_requests/save_find_mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/actors.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/actors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/films_by_actor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/films_by_actor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/genre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/searching.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/searching.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/year.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/year.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/year_range.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/year_range.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,14 +199,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -218,6 +220,9 @@
     &quot;accountId&quot;: &quot;1270dda0-ef53-44f6-8f7a-765b0bc7489d&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -351,6 +356,21 @@
       <workItem from="1768985766074" duration="13000" />
       <workItem from="1768985791830" duration="53000" />
       <workItem from="1768985866220" duration="19000" />
+      <workItem from="1768985947667" duration="3621000" />
+      <workItem from="1769087280991" duration="43000" />
+      <workItem from="1769087334951" duration="15000" />
+      <workItem from="1769087356853" duration="11000" />
+      <workItem from="1769087377204" duration="7000" />
+      <workItem from="1769087392554" duration="16000" />
+      <workItem from="1769087417814" duration="31000" />
+      <workItem from="1769087459798" duration="8000" />
+      <workItem from="1769087481635" duration="11000" />
+      <workItem from="1769087509130" duration="8000" />
+      <workItem from="1769087526789" duration="19000" />
+      <workItem from="1769087581889" duration="40000" />
+      <workItem from="1769087635281" duration="15000" />
+      <workItem from="1769087672875" duration="36000" />
+      <workItem from="1769087718607" duration="8000" />
     </task>
     <servers />
   </component>

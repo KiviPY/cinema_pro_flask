@@ -20,6 +20,7 @@ def get_films(limit=10, offset=0):
                     FROM films f
 			JOIN film_genre fg ON fg.film_id = f.film_id
 			JOIN genres g ON g.genre_id = fg.genre_id
+            LEFT JOIN trailers t ON f.film_id = t.film_id
             GROUP BY f.film_id -- Группируем строки по фильму чтобы GROUP_CONCAT корректно объединил жанры одного фильма
 			ORDER BY f.rating DESC  
 			LIMIT %s OFFSET %s;
@@ -71,11 +72,11 @@ def search_by_title(keyword, limit=10, offset=0):
                     FROM films f
                     JOIN film_genre fg ON fg.film_id = f.film_id
 			        JOIN genres g ON g.genre_id = fg.genre_id
-                    WHERE title LIKE CONCAT(%s, '%%')
+                    WHERE title LIKE %s
                     GROUP BY f.film_id
                     LIMIT %s OFFSET %s;
 """
-                cursor.execute(query_prefix, (keyword, limit, offset))
+                cursor.execute(query_prefix, (f"%{keyword}%", limit, offset))
                 return cursor.fetchall()
 
 
@@ -147,7 +148,7 @@ def get_films_by_actor(actor_id, limit=10, offset=0):
     with mysql.connector.connect(**dbconfig_write) as conn:
         with conn.cursor(dictionary=True) as cursor:
             query = """
-                    SELECT
+                SELECT
 					f.film_id,
                     f.title,
                     f.description,
@@ -157,7 +158,7 @@ def get_films_by_actor(actor_id, limit=10, offset=0):
                     f.image_url,
                     f.age_rating,
                     GROUP_CONCAT(g.name SEPARATOR ", ") AS genre
-                    FROM films f
+                FROM films f
                 JOIN film_genre fg ON fg.film_id = f.film_id
                 JOIN genres g ON g.genre_id = fg.genre_id
                 JOIN film_actor f_a ON f.film_id = f_a.film_id
@@ -173,8 +174,34 @@ def get_actor_by_id(actor_id):
     with mysql.connector.connect(**dbconfig_write) as conn:
         with conn.cursor(dictionary=True) as cursor:
             query = """
-            SELECT first_name, last_name FROM actors WHERE actor_id = %s;
+                SELECT first_name, last_name FROM actors WHERE actor_id = %s;
 """
             cursor.execute(query, (actor_id,))
+            return cursor.fetchone()
+
+
+def get_trailer(film_id):
+    with mysql.connector.connect(**dbconfig_write) as conn:
+        with conn.cursor(dictionary=True) as cursor:
+            query = """
+                SELECT 
+                    f.film_id,
+                    f.title,
+                    f.description,
+                    f.release_year,
+                    f.length,
+                    f.rating,
+                    f.image_url,
+                    f.age_rating,
+                    GROUP_CONCAT(DISTINCT g.name SEPARATOR ', ') AS genre,
+                    t.youtube_id AS trailer_key
+                FROM films f
+                LEFT JOIN film_genre fg ON fg.film_id = f.film_id
+                LEFT JOIN genres g ON g.genre_id = fg.genre_id
+                LEFT JOIN trailers t ON f.film_id = t.film_id
+                WHERE f.film_id = %s
+                GROUP BY f.film_id
+"""
+            cursor.execute(query, (film_id,))
             return cursor.fetchone()
 

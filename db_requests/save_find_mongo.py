@@ -15,7 +15,9 @@ def get_recent_queries():
 
 
 
-def save_query(query_type, key, result_count=None):
+def save_query(query_type, key, page, result_count=None):
+    if page != 1:
+        return
     queries_collection.update_one(
         {
             "query_type": query_type,

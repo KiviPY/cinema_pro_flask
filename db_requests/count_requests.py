@@ -43,9 +43,9 @@ def get_count_by_search(keyword):
             query = """
                 SELECT COUNT(DISTINCT film_id) AS total
                 FROM films
-                WHERE title LIKE CONCAT(%s, '%%');
+                WHERE title LIKE %s;
 """
-            cursor.execute(query, (keyword,))
+            cursor.execute(query, (f"%{keyword}%",))
             return cursor.fetchone()["total"]
 
 def get_count_by_year_range(start_year, end_year, genre):

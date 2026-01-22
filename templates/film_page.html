@@ -1,17 +1,11 @@
 {% extends "base.html" %}
+{% block title %}{{ film.title }}{% endblock %}
 
-{% block title %}
-Main page
-{% endblock %}
-
-{% block right_panel %}Popular films{% endblock %}
-
+{% block right_panel %}Film '{{ film.title }}'{% endblock %}
 
 {% block content %}
-    {% if films %}
-        {% for film in films %}
-            <div class="film-card">
-            <article class="movie-page">
+    <div class="t_card">
+        <article class="film">
                 <h1>{{ film.title }}</h1>
                     <div class="movie-body">
                         <img src="{{ film.image_url }}" alt="{{ film.title }}" width="200" class="poster">
@@ -22,24 +16,30 @@ Main page
                                 <span class="rating imdb">IMDB {{ film.rating }}</span>
                             </div>
 
-                            <div class="description">
-                                {{ film.description }}
-                            </div>
-
                             <ul class="movie-meta">
                                 <li>Year: <span>{{ film.release_year }}</span></li>
                                 <li>Genre: <span>{{ film.genre }}</span></li>
                                 <li>Duration: <span>{{ film.length }} min</span></li>
                             </ul>
 
-                            <a href="{{ url_for('film_page', film_id=film.film_id) }}" class="watch-button">Watch Online</a>
+                            <h3 id="descr"><b>Description:</b></h3>
 
+                            <div class="description">
+                                <hr>
+                                {{ film.description }}
+                                <hr>
+                            </div>
                         </div>
                     </div>
             </article>
+        {% if film.trailer_key %}
+
+            <h2 id="watch_trailer">Watch Trailer</h2>
+            <div class="trailer-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ film.trailer_key }}" title="Trailer for {{ film.title }}" frameborder="0" allowfullscreen></iframe>
+                {% else %}
+                <p>Trailer not available.</p>
+            {% endif %}
             </div>
-        {% endfor %}
-    {% else %}
-        <h1>Sorry, we have no films for you 🙁</h1>
-    {% endif %}
+    </div>
 {% endblock %}
