@@ -4,192 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5369495-2da3-4c2e-a676-fdad9447a4f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Flask/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flask/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flask/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flask/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flask/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Flask/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/FastApi/api_introduction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/FastApi/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/FastApi/films.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/FastApi/pydantic_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_block_style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_classes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_object_positioning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/CSS_working_with_text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/HTML_CSS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/block_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/first_file.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/kino.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/object_positioning.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/project.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/stzle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/working_with_text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/HTML + CSS/ыва.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/div_span.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/enumerate_lists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/forms_searching_button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/links.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/pictures.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/selector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/tags.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/HTML/tags_and_optimisation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_base_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/data_hw_13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/hw_20_mongo_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_hw/mongo_hw_19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/data_pr_13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo.db_practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_atlas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_edit_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_pr_19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/mongo_practice_17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_practice/practice_16_mongo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/data_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/mongo_class_work_19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/mongo_class_work_20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/database/mongo_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_25/hw_25.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_26.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_27/hw_27.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_27/movies_to_watch.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_27/system_log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_28.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_29.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_30/student_courses.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_30/student_courses_report.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_30/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_31.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_33.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_34.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_35.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_36.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_37.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_38.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_39.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_40.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_41.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_42.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/homeworks/hw_43.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/info/from_start_to_OOP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/info/tasks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/info/test_per_comm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/info/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice 12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_13/sales_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_13/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_14/5.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_14/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_14/tasks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_15/german_numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_15/grades.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_15/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_21/books.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_21/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/practice/practice_21/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagination/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pagination/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/film_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/db_requests/count_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/db_requests/main_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/db_requests/save_find_mongo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/local_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/static/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/templates/actors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/templates/film_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/templates/films_by_actor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/templates/genre.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/templates/searching.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/templates/year.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project2/templates/year_range.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+    <list default="true" id="f5369495-2da3-4c2e-a676-fdad9447a4f3" name="Changes" comment="c">
       <change beforePath="$PROJECT_DIR$/../Linux/12_hw_repo" beforeDir="false" afterPath="$PROJECT_DIR$/../Linux/12_hw_repo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/all methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/all methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/commands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 12.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 13.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 14.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 15.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 16.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 17.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 18.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 19.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 20.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 21.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 22.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 23.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_23.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw 24.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_24.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/hw9.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/homeworks/hw_9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/local_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/local_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/math.functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/math.functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 12.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/practice 9.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/practice/practice 9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/sql.connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/database/sql.connector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/sql_first_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/database/sql_first_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/t per commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/t per commands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/t.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/info/t.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_requests/count_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_requests/count_requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_requests/main_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_requests/main_requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_requests/save_find_mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_requests/save_find_mongo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/actors.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/actors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/films_by_actor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/films_by_actor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/genre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/searching.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/searching.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/year.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/year_range.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/year_range.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -371,16 +188,30 @@
       <workItem from="1769087635281" duration="15000" />
       <workItem from="1769087672875" duration="36000" />
       <workItem from="1769087718607" duration="8000" />
+      <workItem from="1769087735646" duration="215000" />
     </task>
+    <task id="LOCAL-00001" summary="c">
+      <option name="closed" value="true" />
+      <created>1769087871504</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769087871504</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="c" />
+    <option name="LAST_COMMIT_MESSAGE" value="c" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$as.coverage" NAME="as Coverage Results" MODIFIED="1768430239126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/project$searching.coverage" NAME="searching Coverage Results" MODIFIED="1768441181525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
-    <SUITE FILE_PATH="coverage/project$main.coverage" NAME="main Coverage Results" MODIFIED="1768985809986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$main.coverage" NAME="main Coverage Results" MODIFIED="1769087751462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$db_conn.coverage" NAME="db_conn Coverage Results" MODIFIED="1768435670689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/project$keyword.coverage" NAME="keyword Coverage Results" MODIFIED="1765274689569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/project$render.coverage" NAME="render Coverage Results" MODIFIED="1766599070312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
