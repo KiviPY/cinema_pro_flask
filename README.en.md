@@ -74,7 +74,7 @@ Description:
 | `/year-range`              | Year range + genre         | get_count_by_year_range(), get_films_by_year_range()                |
 | `/actors`                  | List of actors             | get_total_actors(), get_actors()                                    |
 | `/films_by/<int:actor_id>` | Movies by a specific actor | get_films_count_by_actor(), get_films_by_actor(), get_actor_by_id() |
-
+|´/film/<int:film_id>´       | For trailers in film page  | get_trailers()                                                      |
 
 
 main_requests.py
