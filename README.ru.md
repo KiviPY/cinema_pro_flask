@@ -8,6 +8,7 @@ cinema-pro-flask/
 ├── templates/ 
 │   ├── base.html
 │   ├── actors.html
+|   ├── film_page.html
 │   ├── films_by_actor.html
 │   ├── genre.html
 │   ├── home.html
