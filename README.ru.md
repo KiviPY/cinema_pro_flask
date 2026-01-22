@@ -1,4 +1,4 @@
-text
+'''text
 cinema-pro-flask/
 ├── main.py                    # основной Flask-приложение, маршруты
 ├── db_requests/              # слой доступа к данным (SQL + MongoDB)
