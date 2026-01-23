@@ -18,8 +18,8 @@ def get_films(limit=10, offset=0):
                     f.age_rating,
                     GROUP_CONCAT(g.name SEPARATOR ", ") AS genre -- Собираем ВСЕ жанры фильма в одну строку через запятую--
                     FROM films f
-			JOIN film_genre fg ON fg.film_id = f.film_id
-			JOIN genres g ON g.genre_id = fg.genre_id
+			LEFT JOIN film_genre fg ON fg.film_id = f.film_id
+            LEFT JOIN genres g ON g.genre_id = fg.genre_id
             LEFT JOIN trailers t ON f.film_id = t.film_id
             GROUP BY f.film_id -- Группируем строки по фильму чтобы GROUP_CONCAT корректно объединил жанры одного фильма
 			ORDER BY f.rating DESC  
