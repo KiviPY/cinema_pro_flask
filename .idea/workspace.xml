@@ -7,6 +7,12 @@
     <list default="true" id="f5369495-2da3-4c2e-a676-fdad9447a4f3" name="Changes" comment="c">
       <change beforePath="$PROJECT_DIR$/../Linux/12_hw_repo" beforeDir="false" afterPath="$PROJECT_DIR$/../Linux/12_hw_repo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.ru.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_requests/count_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_requests/count_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_requests/main_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_requests/main_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/db_requests/count_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/db_requests/count_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/db_requests/main_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/db_requests/main_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,37 +58,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.base.html.executor": "Run",
-    "JavaScript Debug.dsd.html.executor": "Run",
-    "JavaScript Debug.output.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.as.executor": "Run",
-    "Python.db_conn.executor": "Run",
-    "Python.keyword.executor": "Run",
-    "Python.load_actors.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.render.executor": "Run",
-    "Python.requests.executor": "Run",
-    "Python.searching.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "fix-base-panel",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/IT CareerHub/project",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.base.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.dsd.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.output.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.as.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db_conn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.keyword.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_actors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.render.executor&quot;: &quot;Run&quot;,
+    &quot;Python.requests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.searching.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fix-base-panel&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IT CareerHub/project&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IT CareerHub\project" />
@@ -191,6 +197,8 @@
       <workItem from="1769087718607" duration="8000" />
       <workItem from="1769087735646" duration="215000" />
       <workItem from="1769087963044" duration="685000" />
+      <workItem from="1769107780907" duration="1148000" />
+      <workItem from="1769126684694" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="c">
       <option name="closed" value="true" />

@@ -105,7 +105,7 @@ def get_films_by_year(year, limit=10, offset=0):
             return cursor.fetchall()
 
 
-def get_films_by_year_range(start_year, end_year, genre, limit=10, offset=0):
+def get_films_by_year_range(start_year, end_year, genre=None, limit=10, offset=0):
     with mysql.connector.connect(**dbconfig_write) as conn:
         with conn.cursor(dictionary=True) as cursor:
             query = """
@@ -123,11 +123,18 @@ def get_films_by_year_range(start_year, end_year, genre, limit=10, offset=0):
                 JOIN film_genre fg ON fg.film_id = f.film_id
                 JOIN genres g ON g.genre_id = fg.genre_id
                 WHERE f.release_year BETWEEN %s AND %s
-                AND (%s IS NULL OR g.name = %s)
-                GROUP BY f.film_id
-                LIMIT %s OFFSET %s;
-            """
-            cursor.execute(query, (start_year, end_year, genre, genre, limit, offset))
+"""
+
+            params = [start_year, end_year]
+
+            if genre:
+                query += " AND g.name = %s"
+                params.append(genre)
+
+            query += " GROUP BY f.film_id LIMIT %s OFFSET %s"
+            params.extend([limit, offset])
+
+            cursor.execute(query, params)
             return cursor.fetchall()
 
 
