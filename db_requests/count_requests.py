@@ -48,19 +48,24 @@ def get_count_by_search(keyword):
             cursor.execute(query, (f"%{keyword}%",))
             return cursor.fetchone()["total"]
 
-def get_count_by_year_range(start_year, end_year, genre):
+def get_count_by_year_range(start_year, end_year, genre=None):
     with mysql.connector.connect(**dbconfig_write) as conn:
         with conn.cursor(dictionary=True) as cursor:
-            query ="""
-                SELECT COUNT(DISTINCT f.film_id) AS total FROM films f
+            query = """
+                SELECT COUNT(DISTINCT f.film_id) AS total
+                FROM films f
                 JOIN film_genre fg ON fg.film_id = f.film_id
-			    JOIN genres g ON g.genre_id = fg.genre_id
+                JOIN genres g ON g.genre_id = fg.genre_id
                 WHERE f.release_year BETWEEN %s AND %s
-                AND (%s IS NULL OR g.name = %s);
-"""
-            cursor.execute(query, (start_year, end_year, genre, genre)) # если genre == NULL = условие TRUE жанр НЕ фильтруется
-            return cursor.fetchone()["total"]                                   # если genre НЕ NULL = выбираем только фильмы с этим жанром
+            """
+            params = [start_year, end_year]
 
+            if genre:
+                query += " AND g.name = %s"
+                params.append(genre)
+
+            cursor.execute(query, params)
+            return cursor.fetchone()["total"]
 
 
 
